@@ -240,6 +240,15 @@ hr {
 .services__bg-img img {
   width: 100%;
 }
+.services__button button {
+  padding: 10px 0;
+  color: #DBB070 !important;
+  border-bottom: 1px solid #DBB070;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
 
 .card-body {
   background-color: #171922;
