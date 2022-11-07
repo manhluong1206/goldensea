@@ -4,16 +4,19 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #FFFFFF !important;
-  font-family: "Poppins";
 }
 
 @font-face {
-  font-family: "Poppins";
+  font-family: "Poppins-md";
   src: url(/fonts/Poppins-Medium.ttf) format("truetype");
 }
 @font-face {
+  font-family: "Poppins-light";
+  src: url(/fonts/Poppins-Light.ttf) format("truetype");
+}
+@font-face {
   font-family: "Mulish";
-  src: url(/fonts/static/Mulish-Medium.ttf) format("truetype");
+  src: url(/fonts/static/Mulish-Light.ttf) format("truetype");
 }
 .container-fluid {
   padding: 0 !important;
@@ -104,10 +107,11 @@ hr {
 }
 .slider-content__item.subtitle h6 {
   color: #A9AFC3 !important;
+  font-size: 11px;
   font-weight: 400;
-  font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.08em;
+  font-family: "Poppins-light";
 }
 .slider-content__item.subtitle h6 .line {
   height: 1px;
@@ -124,11 +128,12 @@ hr {
   line-height: 100%;
 }
 .slider-content__item.desc p {
-  width: 37%;
+  width: 41%;
   font-style: normal;
-  font-weight: 300;
-  color: #A9AFC3 !important;
+  font-size: 15px;
   line-height: 150%;
+  color: #A9AFC3 !important;
+  font-family: "Poppins-light";
 }
 .slider-content__item .button-img {
   float: left;
@@ -137,8 +142,20 @@ hr {
   float: left;
   margin: 27px 0 0;
 }
+.slider-content__item .text p {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 11px;
+  font-family: "Poppins-light";
+  line-height: 150%;
+}
 .slider-content__item.button p.color {
   color: #DBB070 !important;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
 }
 .slider-content__item.dot span {
   content: "";
@@ -163,6 +180,7 @@ hr {
   border-radius: 50px;
   border: 2px solid #DBB070;
   background-color: transparent;
+  font-family: "Mulish";
 }
 
 .header {
@@ -175,6 +193,14 @@ hr {
   width: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(#111319), to(rgba(22, 25, 33, 0.6)));
   background: linear-gradient(180deg, #111319, rgba(22, 25, 33, 0.6));
+}
+.header .nav-item a {
+  font-family: "Mulish";
+  font-size: 14px;
+}
+
+.nav-link {
+  padding: 14px 0;
 }
 
 .main-menu__logo {
@@ -202,10 +228,11 @@ hr {
 }
 .about-us__content.subtitle h6 {
   color: #A9AFC3 !important;
+  font-size: 11px;
   font-weight: 400;
-  font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.08em;
+  font-family: "Poppins-light";
 }
 .about-us__content.subtitle h6 .line {
   height: 1px;
@@ -220,6 +247,7 @@ hr {
   font-weight: 700;
   font-size: 56px;
   line-height: 100%;
+  font-family: "Poppins-md";
 }
 .about-us__content.title h1 span {
   content: "";
@@ -235,12 +263,16 @@ hr {
   font-style: normal;
   font-weight: 300;
   line-height: 150%;
+  font-family: "Poppins-light";
+  color: #A9AFC3 !important;
 }
 .about-us__content.desc .p-2 {
   width: 82%;
   font-style: normal;
   font-weight: 300;
   line-height: 150%;
+  font-family: "Mulish";
+  color: #A9AFC3 !important;
 }
 .about-us__readmore button {
   padding: 10px 0;
@@ -267,11 +299,12 @@ hr {
   margin: 150px 0 0 145px;
 }
 .services__item.subtitle h6 {
-  color: #A9AFC3;
+  color: #A9AFC3 !important;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 150%;
   letter-spacing: 0.08em;
+  font-family: "Poppins-light";
 }
 .services__item.subtitle h6 .line {
   height: 1px;
@@ -286,6 +319,7 @@ hr {
   font-weight: 700;
   font-size: 47px;
   line-height: 100%;
+  font-size: "Poppins-md";
 }
 .services__item.title h1 span {
   content: "";
@@ -301,6 +335,8 @@ hr {
   font-style: normal;
   font-weight: 300;
   line-height: 150%;
+  font-family: "Mulish";
+  color: #A9AFC3 !important;
 }
 .services__bg-img {
   position: absolute;
@@ -308,6 +344,9 @@ hr {
 }
 .services__bg-img img {
   width: 100%;
+}
+.services__button {
+  margin: 50px 0 0;
 }
 .services__button button {
   padding: 10px 0;
@@ -319,11 +358,9 @@ hr {
   border-right: none;
 }
 
-.card-body {
-  background-color: #171922;
-}
 .card-body.bg-2 {
-  background-color: #0B0D14;
+  background: -webkit-gradient(linear, left bottom, left top, from(#191C26), to(#0B0D14));
+  background: linear-gradient(0deg, #191C26, #0B0D14);
 }
 .card-body__icon {
   margin: 50px auto 36px;
@@ -339,13 +376,20 @@ hr {
 }
 .card-body__text {
   color: #A9AFC3 !important;
+  font-family: "Poppins-md";
+  font-size: 20px;
+  line-height: 130%;
 }
 
 .card {
   -webkit-box-flex: 0.5;
       -ms-flex: 0.5 0 0%;
           flex: 0.5 0 0%;
+  border: none !important;
   margin: 0 !important;
+  background: -webkit-gradient(linear, left bottom, left top, from(#191C26), to(#080A12)) !important;
+  background: linear-gradient(0deg, #191C26, #080A12) !important;
+  height: 490px;
 }
 
 .cta {
@@ -363,16 +407,17 @@ hr {
 .cta__item.subtitle h6 {
   color: #A9AFC3 !important;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 11px;
   line-height: 150%;
   letter-spacing: 0.08em;
+  font-family: "Poppins-light";
 }
 .cta__item.subtitle h6 .line {
   height: 1px;
   width: 60px;
   background: #A9AFC3 !important;
   float: left;
-  margin: 10px 15px 0 0;
+  margin: 8px 15px 0 0;
 }
 .cta__item.title h1 {
   margin: 22px 0;
@@ -380,6 +425,7 @@ hr {
   font-weight: 700;
   font-size: 56px;
   line-height: 100%;
+  font-family: "Poppins-md";
 }
 .cta__item.title h1 span {
   content: "";
@@ -397,6 +443,7 @@ hr {
   line-height: 150%;
   color: #A9AFC3 !important;
   font-size: 14px;
+  font-family: "Mulish";
 }
 .cta__button {
   margin: 30px 20px;
@@ -422,7 +469,7 @@ hr {
   background: none;
   border: none;
   border-bottom: 1px solid #3A3F50;
-  margin: 20px;
+  margin: 20px 12px 20px 0;
 }
 
 .choose {
@@ -444,16 +491,17 @@ hr {
 .choose__item.subtitle h6 {
   color: #A9AFC3 !important;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 150%;
   letter-spacing: 0.08em;
+  font-family: "Poppins-light";
 }
 .choose__item.subtitle h6 .line {
   height: 1px;
   width: 60px;
   background: #A9AFC3 !important;
   float: left;
-  margin: 10px 15px 0 0;
+  margin: 8px 15px 0 0;
 }
 .choose__item.title h1 {
   margin: 22px 0;
@@ -461,6 +509,7 @@ hr {
   font-weight: 700;
   font-size: 56px;
   line-height: 100%;
+  font-family: "Poppins-md";
 }
 .choose__item.title h1 span {
   content: "";
@@ -472,17 +521,28 @@ hr {
   border-radius: 50%;
 }
 .choose__item.desc p {
-  width: 57%;
+  width: 68%;
   font-style: normal;
   font-weight: 300;
   line-height: 150%;
+  font-family: "Poppins-light";
+  font-size: 14px;
+  color: #A9AFC3 !important;
+}
+.choose__item.list {
+  margin: 50px 0 0;
+}
+.choose__item.list h6 {
+  font-family: "Poppins-md";
 }
 .choose__item.list h6 img {
   padding-right: 20px;
 }
 .choose__item.list p {
+  font-family: "Mulish";
   padding-left: 50px;
   color: #A9AFC3 !important;
+  font-size: 13px;
 }
 
 .choose-left {
@@ -496,6 +556,7 @@ hr {
   width: 220px;
 }
 .choose-left__b-1.numb {
+  font-family: "Mulish";
   text-align: center;
   font-size: 33px;
   line-height: 100%;
@@ -508,12 +569,16 @@ hr {
   line-height: 170%;
   color: #DD4242 !important;
   position: absolute;
+  font-weight: bold;
+  padding: 0px 10px;
+  font-size: 15px;
 }
 .choose-left__b-1.text {
   font-size: 18px;
   line-height: 170%;
   padding: 20px 0 20px 45px;
   color: #A9AFC3 !important;
+  font-family: "Mulish";
 }
 .choose-left__b-2 {
   margin: 30px 0;
@@ -530,6 +595,7 @@ hr {
   line-height: 100%;
   position: relative;
   padding: 50px 0 0;
+  font-family: "Mulish";
 }
 .choose-left__b-2.numb span {
   font-weight: 400;
@@ -537,12 +603,16 @@ hr {
   line-height: 170%;
   color: #DD4242 !important;
   position: absolute;
+  font-weight: bold;
+  padding: 0px 10px;
+  font-size: 15px;
 }
 .choose-left__b-2.text {
   font-size: 18px;
   line-height: 170%;
   padding: 20px 0 20px 45px;
   color: #A9AFC3 !important;
+  font-family: "Mulish";
 }
 
 .choose-right {
@@ -569,6 +639,9 @@ hr {
   line-height: 170%;
   color: #DD4242 !important;
   position: absolute;
+  font-weight: bold;
+  padding: 0px 10px;
+  font-size: 15px;
 }
 .choose-right__b-1.text {
   font-size: 18px;
@@ -596,6 +669,9 @@ hr {
   line-height: 170%;
   color: #DD4242 !important;
   position: absolute;
+  font-weight: bold;
+  padding: 0px 10px;
+  font-size: 15px;
 }
 .choose-right__b-2.text {
   font-size: 18px;
@@ -611,9 +687,10 @@ hr {
 .case__content.subtitle h6 {
   color: #A9AFC3 !important;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 150%;
   letter-spacing: 0.08em;
+  font-family: "Poppins-light";
 }
 .case__content.subtitle h6 .line {
   height: 1px;
@@ -626,8 +703,9 @@ hr {
   margin: 22px 0;
   font-style: normal;
   font-weight: 700;
-  font-size: 56px;
+  font-size: 53px;
   line-height: 100%;
+  font-family: "Poppins-md";
 }
 .case__content.title h1 span {
   content: "";
@@ -638,17 +716,17 @@ hr {
   border: 1px solid #DBB070;
   border-radius: 50%;
 }
+.case__content.desc {
+  margin: 30px 0 70px;
+}
 .case__content.desc p {
   width: 93%;
   font-style: normal;
   font-weight: 300;
   line-height: 150%;
-}
-.case__content.desc .p-2 {
-  width: 82%;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 150%;
+  font-family: "Mulish";
+  font-size: 14px;
+  color: #A9AFC3 !important;
 }
 .case__viewcase {
   margin-top: 115px;
@@ -661,6 +739,9 @@ hr {
   border-top: none;
   border-left: none;
   border-right: none;
+  font-family: "Poppins-light";
+  font-size: 14px;
+  font-weight: normal;
 }
 .case__viewcase button i {
   color: #DBB070 !important;
@@ -702,9 +783,10 @@ hr {
 .post__content.subtitle h6 {
   color: #A9AFC3 !important;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 150%;
   letter-spacing: 0.08em;
+  font-family: "Poppins-light";
 }
 .post__content.subtitle h6 .line {
   height: 1px;
@@ -719,6 +801,7 @@ hr {
   font-weight: 700;
   font-size: 56px;
   line-height: 100%;
+  font-family: "Poppins-md";
 }
 .post__content.title h1 span {
   content: "";
@@ -734,6 +817,9 @@ hr {
   font-style: normal;
   font-weight: 300;
   line-height: 150%;
+  font-family: "Mulish";
+  font-size: 14px;
+  color: #A9AFC3 !important;
 }
 .post__block {
   margin: 40px 0;
@@ -743,23 +829,26 @@ hr {
   display: block;
   width: 138px;
   height: 138px;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(25, 28, 38, 0)), to(#080A12));
-  background: linear-gradient(0deg, rgba(25, 28, 38, 0), #080A12);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0)), to(#080A12));
+  background: linear-gradient(180deg, rgba(25, 28, 38, 0), #080A12);
 }
 .post__btn button {
   width: 95px;
   height: 24px;
   background-color: #DBB070;
   border: none;
+  font-family: "Mulish";
 }
 .post__btn span {
   color: #A9AFC3 !important;
   font-size: 12px;
+  font-family: "Mulish";
 }
 .post__title p {
   font-weight: 500;
   font-size: 22px;
   line-height: 130%;
+  font-family: "Poppins-md";
 }
 .post__button button {
   padding: 28px 0 5px;
@@ -769,6 +858,7 @@ hr {
   border-top: none;
   border-left: none;
   border-right: none;
+  font-family: "Poppins-light";
 }
 .post__bg-img {
   background-image: url(/images/img-post/bg\ object.png);
@@ -780,7 +870,7 @@ hr {
 }
 
 .subscribe {
-  margin: 240px 0 0px 200px;
+  margin: 120px 0 0px 200px;
   position: relative;
 }
 .subscribe__block {
@@ -794,9 +884,10 @@ hr {
 .subscribe__content.subtitle h6 {
   color: #A9AFC3 !important;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 150%;
   letter-spacing: 0.08em;
+  font-family: "Poppins-light";
 }
 .subscribe__content.subtitle h6 .line {
   height: 1px;
@@ -811,6 +902,7 @@ hr {
   font-weight: 700;
   font-size: 56px;
   line-height: 100%;
+  font-family: "Poppins-md";
 }
 .subscribe__content.title h1 span {
   content: "";
@@ -822,10 +914,13 @@ hr {
   border-radius: 50%;
 }
 .subscribe__content.desc p {
-  width: 69%;
+  width: 80%;
   font-style: normal;
   font-weight: 300;
+  font-size: 14px;
   line-height: 150%;
+  font-family: "Mulish";
+  color: #A9AFC3 !important;
 }
 .subscribe__content-2 input {
   width: 94%;
@@ -849,8 +944,18 @@ hr {
 .subscribe__bg {
   margin: 120px 35px;
 }
+.subscribe__name p {
+  font-family: "Poppins-md";
+  font-size: 15px;
+}
 .subscribe__regency p {
+  font-family: "Mulish";
   font-size: 12px;
+  color: #A9AFC3 !important;
+}
+.subscribe__desc p {
+  font-family: "Poppins-md";
+  font-size: 15px;
   color: #A9AFC3 !important;
 }
 
@@ -864,17 +969,30 @@ hr {
 .footer__copyright p {
   font-size: 12px;
   color: #A9AFC3 !important;
-  padding: 16px;
+  padding: 12px;
+  font-family: "Mulish";
+}
+.footer__work-time p {
+  font-family: "Mulish";
 }
 .footer__work-time.pd-2 {
+  font-family: "Mulish";
   font-size: 12px;
   color: #A9AFC3 !important;
+}
+.footer__address p {
+  font-family: "Mulish";
 }
 .footer__address.pd-2 {
+  font-family: "Mulish";
   font-size: 12px;
   color: #A9AFC3 !important;
 }
+.footer__contact p {
+  font-family: "Mulish";
+}
 .footer__contact.pd-2 {
+  font-family: "Mulish";
   font-size: 12px;
   color: #A9AFC3 !important;
   line-height: 170%;
