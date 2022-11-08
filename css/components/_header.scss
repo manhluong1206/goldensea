@@ -1,0 +1,17 @@
+.header {
+  position: sticky;
+  z-index: 4;
+  top: 0;
+  left: 11%;
+  padding: 10px;
+  height: 100px;
+  width: 1200px;
+  background: linear-gradient(180deg, #111319, #16192199);
+
+  .nav-item {
+    a {
+      font-family: "Mulish";
+      font-size: 14px;
+    }
+  }
+}

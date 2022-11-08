@@ -1,0 +1,66 @@
+.team{
+    &__container{
+        margin: 200px 0 200px 200px;
+    }
+    &__content {
+        &.subtitle {
+            h6 {
+                color: #A9AFC3 !important;
+                font-size: 11px;
+                font-weight: 400;
+                line-height: 150%;
+                letter-spacing: 0.08em;
+                font-family: "Poppins-light";
+
+                .line {
+                    height: 1px;
+                    width: 60px;
+                    background: #A9AFC3 !important;
+                    float: left;
+                    margin: 10px 15px 0 0;
+                }
+            }
+        }
+
+        &.title {
+            h1 {
+                margin: 22px 0;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 56px;
+                line-height: 100%;
+                font-family: "Poppins-md";
+
+                span {
+                    content: "";
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    background-color: #DBB070;
+                    border: 1px solid #DBB070;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        &.desc {
+            p {
+                width: 102%;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 150%;
+                font-family: 'Poppins-light';
+                color: #A9AFC3 !important;
+            }
+
+            .p-2 {
+                width: 82%;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 150%;
+                font-family: "Mulish";
+                color: #A9AFC3 !important;
+            }
+        }
+    }
+}

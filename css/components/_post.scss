@@ -1,0 +1,112 @@
+.post {
+    margin: 270px 0 0 200px;
+
+    &__content {
+        &.subtitle {
+            h6 {
+                color: #A9AFC3 !important;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 150%;
+                letter-spacing: 0.08em;
+                font-family: "Poppins-light";
+                .line {
+                    height: 1px;
+                    width: 60px;
+                    background: #A9AFC3 !important;
+                    float: left;
+                    margin: 10px 15px 0 0;
+                }
+            }
+        }
+
+        &.title {
+            h1 {
+                margin: 22px 0;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 56px;
+                line-height: 100%;
+                font-family: "Poppins-md";
+                span {
+                    content: "";
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    background-color: #DBB070;
+                    border: 1px solid #DBB070;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        &.desc {
+            p {
+                width: 94%;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 150%;
+                font-family: "Mulish";
+                font-size: 14px;
+                color: #A9AFC3 !important;
+            }
+        }
+    }
+    &__block{
+        margin: 40px 0;
+    }
+    &__img {
+        &:after {
+            content: "";
+            display: block;
+            width: 138px;
+            height: 138px;
+            background: linear-gradient(180deg, #191C2600, #080A12);
+        }
+    }
+
+    &__btn {
+        button {
+            width: 95px;
+            height: 24px;
+            background-color: #DBB070;
+            border: none;
+            font-family: "Mulish";
+        }
+
+        span {
+            color: #A9AFC3 !important;
+            font-size: 12px;
+            font-family: "Mulish";
+        }
+    }
+
+    &__title {
+        p {
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 130%;
+            font-family: "Poppins-md";
+        }
+    }
+    &__button{
+        button{
+            padding: 28px 0 5px;
+            color: #DBB070 !important;
+            border-bottom: 1px solid #DBB070;
+            background: transparent;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            font-family: "Poppins-light";
+        }
+    }
+    &__bg-img{
+        background-image: url(/images/img-post/bg\ object.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__block-tt{
+        margin: 211px 0 0;
+    }
+}

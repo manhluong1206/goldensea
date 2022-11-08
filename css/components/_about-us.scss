@@ -1,0 +1,94 @@
+.about-us {
+    position: relative;
+
+    &::after {
+        content: "";
+        display: block;
+        background-color: #000;
+        width: 100%;
+        height: 626px;
+        position: absolute;
+        top: 0%;
+        opacity: 0.9;
+    }
+
+    &__content {
+        &.block {
+            position: absolute;
+            z-index: 3;
+            top: 21%;
+            left: 50%;
+        }
+
+        &.subtitle {
+            h6 {
+                color: #A9AFC3 !important;
+                font-size: 11px;
+                font-weight: 400;
+                line-height: 150%;
+                letter-spacing: 0.08em;
+                font-family: "Poppins-light";
+
+                .line {
+                    height: 1px;
+                    width: 60px;
+                    background: #A9AFC3 !important;
+                    float: left;
+                    margin: 10px 15px 0 0;
+                }
+            }
+        }
+
+        &.title {
+            h1 {
+                margin: 22px 0;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 56px;
+                line-height: 100%;
+                font-family: "Poppins-md";
+                span {
+                    content: "";
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    background-color: #DBB070;
+                    border: 1px solid #DBB070;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        &.desc {
+            p {
+                width: 62%;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 150%;
+                font-family: 'Poppins-light';
+                color:#A9AFC3 !important;
+            }
+
+            .p-2 {
+                width: 82%;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 150%;
+                font-family: "Mulish";
+                color:#A9AFC3 !important;
+            }
+        }
+    }
+
+    &__readmore {
+        button {
+            padding: 10px 0;
+            color: #DBB070 !important;
+            border-bottom: 1px solid #DBB070;
+            background: transparent;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+    }
+}

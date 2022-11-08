@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #FFFFFF !important;
+}
+
+@font-face {
+  font-family: "Poppins-md";
+  src: url(../fonts/Poppins-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-light";
+  src: url(../fonts/Poppins-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url(../fonts/static/Mulish-Light.ttf) format("truetype");
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .15s;
+  padding: 16px 45px;
+}
+
+hr {
+  height: 1px;
+  width: 60px;
+  background-color: #A9AFC3;
+}
+
+@import "components/sidebar";
+@import "components/sidebar-left";
+@import "components/slider-content";
+@import "components/button-menu";
+@import "components/header";
+@import "components/nav-link";
+@import "components/main-menu";
+@import "components/about-us";
+@import "components/main-content";
+@import "components/services";
+@import "components/card-deck";
+@import "components/card-body";
+@import "components/card";
+@import "components/cta";
+@import "components/form-group";
+@import "components/form-control";
+@import "components/choose";
+@import "components/choose-left";
+@import "components/choose-right";
+@import "components/case";
+@import "components/case-card";
+@import "components/post";
+@import "components/subscribe";
+@import "components/footer";
+@import "components/about-us/banner-info";
+@import "components/about-us/team";
+@import "components/about-us/team-card-images";
+@import "components/about-us/client";
+@import "components/about-us/client-card-images";
+@import "components/about-us/video";
+@import "components/about-us/link-page";

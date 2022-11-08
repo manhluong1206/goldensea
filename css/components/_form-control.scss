@@ -1,0 +1,9 @@
+.form-control{
+    &.mess{
+        width: 55%;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #3A3F50;
+        margin: 20px 12px 20px 0;
+    }
+}

@@ -1140,7 +1140,7 @@ hr {
   position: absolute;
   top: 61%;
   left: 26%;
-  font-family: "Poppins";
+  font-family: "Poppins-md";
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -1192,7 +1192,7 @@ hr {
   position: absolute;
   top: 61%;
   left: 26%;
-  font-family: "Poppins";
+  font-family: "Poppins-md";
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -1341,4 +1341,19 @@ hr {
 }
 .video__ctainer button i {
   color: #fff;
+}
+
+.link-page__nav-bar {
+  display: inline-block;
+  list-style: none;
+}
+.link-page__nav-bar span {
+  color: #A9AFC3 !important;
+}
+.link-page__line {
+  height: 1px;
+  width: 20px;
+  background: #A9AFC3 !important;
+  float: left;
+  margin: 12px 12px 0;
 }
