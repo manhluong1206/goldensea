@@ -1357,3 +1357,129 @@ hr {
   float: left;
   margin: 12px 12px 0;
 }
+
+.prices__container {
+  margin: 100px 0 100px 200px;
+}
+.prices__content {
+  background-image: url(/images/img-post/bg\ object.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.prices-card__plan {
+  width: 24%;
+  padding-top: 10px;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  background: -webkit-gradient(linear, left bottom, left top, from(#191C26), to(#080A12)) !important;
+  background: linear-gradient(0deg, #191C26, #080A12) !important;
+}
+
+.snip1517 .plan {
+  width: 24%;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(25, 28, 38, 0)), to(#000000));
+  background: linear-gradient(0deg, rgba(25, 28, 38, 0), #000000);
+  border-radius: 8px;
+}
+
+.snip1517 .plan:hover i,
+.snip1517 .plan.hover i {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.snip1517 .plan-title {
+  line-height: 60px;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  padding: 0 20px;
+  font-size: 1.6em;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.snip1517 .plan-cost {
+  padding: 0 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.snip1517 .plan-price {
+  font-weight: 400;
+  font-size: 2.8em;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+.snip1517 .plan-type {
+  opacity: 0.8;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+
+.snip1517 .plan:hover {
+  margin-top: -34px;
+  z-index: 1;
+  border-radius: 8px;
+  background-color: transparent;
+}
+.snip1517 .plan:hover header {
+  background-color: #DBB070;
+}
+
+.snip1517 .plan-features {
+  padding: 0 0 20px;
+  margin: 0;
+  list-style: outside none none;
+  font-size: 0.9em;
+}
+
+.snip1517 .plan-features li {
+  padding: 8px 20px;
+}
+
+.snip1517 .plan-features i {
+  margin-right: 8px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.snip1517 .plan-select {
+  padding: 20px;
+  text-align: center;
+}
+
+.snip1517 .plan-select a {
+  background-color: transparent;
+  font-family: "Mulish";
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: 0.75em;
+  font-weight: 600;
+  border-radius: 30px;
+  border: 1px solid #DBB070;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+}
+
+.snip1517 .featured {
+  margin-top: -10px;
+  z-index: 1;
+  border-radius: 8px;
+  border: 2px solid #156dab;
+  background-color: transparent;
+}
+
+.snip1517 .featured .plan-select {
+  padding: 30px 20px;
+}
+
+.snip1517 .featured .plan-select a {
+  background-color: transparent;
+}

@@ -1,0 +1,10 @@
+.prices{
+    &__container{
+        margin: 100px 0 100px 200px;
+    }
+    &__content{
+        background-image: url(/images/img-post/bg\ object.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
