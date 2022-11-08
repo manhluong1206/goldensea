@@ -933,6 +933,9 @@ hr {
 }
 
 .subscribe {
+  background-color: #191C26;
+}
+.subscribe__container {
   margin: 120px 0 0px 200px;
   position: relative;
 }
@@ -1066,4 +1069,276 @@ hr {
 }
 .banner-info__cntainer {
   margin: 0 0 0 200px;
+}
+.banner-info__item.subtitle h6 {
+  color: #A9AFC3 !important;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+  font-family: "Poppins-light";
+}
+.banner-info__item.subtitle h6 .line {
+  height: 1px;
+  width: 60px;
+  background: #A9AFC3 !important;
+  float: left;
+  margin: 10px 15px 0 0;
+}
+.banner-info__item.title h1 {
+  margin: 22px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100%;
+  font-family: "Poppins-md";
+}
+.banner-info__item.title h1 span {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #DD4242;
+  border: 1px solid #DD4242;
+  border-radius: 50%;
+}
+.banner-info__item.desc p {
+  width: 89%;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  font-family: "Poppins-light";
+  color: #A9AFC3 !important;
+}
+.banner-info__item.desc .p-2 {
+  width: 82%;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  font-family: "Mulish";
+  color: #A9AFC3 !important;
+}
+.banner-info__circle {
+  border: 2px solid #DBB070;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  background-color: transparent;
+  position: relative;
+}
+.banner-info__circle p.p-numb {
+  position: absolute;
+  top: 27%;
+  left: 42%;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 100%;
+}
+.banner-info__circle p.p-text {
+  position: absolute;
+  top: 61%;
+  left: 26%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 130%;
+  color: #DBB070 !important;
+}
+.banner-info__desc.block {
+  margin: 90px 0 0;
+}
+.banner-info__desc.text-1 {
+  font-family: "Poppins-md";
+  font-size: 28px;
+  line-height: 130%;
+}
+.banner-info__desc.text-2 p {
+  font-family: "Mulish";
+  color: #A9AFC3 !important;
+}
+.banner-info__desc.text-3 p {
+  font-family: "Mulish";
+  color: #A9AFC3 !important;
+}
+.banner-info__center {
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+.banner-info__circle-center {
+  border: 2px solid #DBB070;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  background-color: transparent;
+  position: relative;
+}
+.banner-info__circle-center p.p-numb {
+  position: absolute;
+  top: 27%;
+  left: 42%;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 100%;
+}
+.banner-info__circle-center p.p-numb.top {
+  left: 27%;
+}
+.banner-info__circle-center p.p-text {
+  position: absolute;
+  top: 61%;
+  left: 26%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 130%;
+  color: #DBB070 !important;
+}
+
+.team__container {
+  margin: 200px 0 200px 200px;
+}
+.team__content.subtitle h6 {
+  color: #A9AFC3 !important;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+  font-family: "Poppins-light";
+}
+.team__content.subtitle h6 .line {
+  height: 1px;
+  width: 60px;
+  background: #A9AFC3 !important;
+  float: left;
+  margin: 10px 15px 0 0;
+}
+.team__content.title h1 {
+  margin: 22px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100%;
+  font-family: "Poppins-md";
+}
+.team__content.title h1 span {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #DBB070;
+  border: 1px solid #DBB070;
+  border-radius: 50%;
+}
+.team__content.desc p {
+  width: 102%;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  font-family: "Poppins-light";
+  color: #A9AFC3 !important;
+}
+.team__content.desc .p-2 {
+  width: 82%;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  font-family: "Mulish";
+  color: #A9AFC3 !important;
+}
+
+.team-card-images {
+  float: left;
+  width: 25%;
+  border: 0;
+  position: relative;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.team-card-images::before {
+  content: "";
+  width: 100%;
+  height: 318px;
+  background-color: rgba(25, 28, 38, 0);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0)), to(#000));
+  background: linear-gradient(180deg, rgba(25, 28, 38, 0), #000);
+  opacity: 0.9;
+  display: inline-block;
+  position: absolute;
+}
+.team-card-images:hover {
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.team-card-images:hover::before {
+  display: none;
+}
+
+.client {
+  margin: 100px 0;
+}
+.client__container {
+  margin: 200px 0 200px 200px;
+}
+
+.client-card-images {
+  float: left;
+  width: 20%;
+  border: 0;
+  position: relative;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  text-align: center;
+}
+.client-card-images::before {
+  content: "";
+  width: 100%;
+  background-color: rgba(25, 28, 38, 0);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0)), to(#000));
+  background: linear-gradient(180deg, rgba(25, 28, 38, 0), #000);
+  opacity: 0.9;
+  display: inline-block;
+  position: absolute;
+}
+.client-card-images:hover {
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.client-card-images:hover::before {
+  display: none;
+}
+
+.video__ctainer {
+  position: relative;
+}
+.video__ctainer img {
+  width: 100%;
+}
+.video__ctainer button {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  background-color: #DD4242;
+  border: none;
+  border-radius: 50%;
+  width: 123px;
+  height: 123px;
+}
+.video__ctainer button i {
+  color: #fff;
 }
