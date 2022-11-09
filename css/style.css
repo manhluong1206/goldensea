@@ -1607,3 +1607,38 @@ hr {
   font-family: "Poppins-light";
   color: #A9AFC3 !important;
 }
+.footer-sevices-details {
+  border-top: 1px solid #A9AFC3;
+  padding: 30px 0;
+}
+.footer-sevices-details__copyright p {
+  font-size: 12px;
+  color: #A9AFC3 !important;
+  padding: 12px;
+  font-family: "Mulish";
+}
+.footer-sevices-details__work-time p {
+  font-family: "Mulish";
+}
+.footer-sevices-details__work-time.pd-2 {
+  font-family: "Mulish";
+  font-size: 12px;
+  color: #A9AFC3 !important;
+}
+.footer-sevices-details__address p {
+  font-family: "Mulish";
+}
+.footer-sevices-details__address.pd-2 {
+  font-family: "Mulish";
+  font-size: 12px;
+  color: #A9AFC3 !important;
+}
+.footer-sevices-details__contact p {
+  font-family: "Mulish";
+}
+.footer-sevices-details__contact.pd-2 {
+  font-family: "Mulish";
+  font-size: 12px;
+  color: #A9AFC3 !important;
+  line-height: 170%;
+}
