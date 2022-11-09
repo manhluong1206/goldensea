@@ -1607,8 +1607,9 @@ hr {
   font-family: "Poppins-light";
   color: #A9AFC3 !important;
 }
-.footer-sevices-details {
-  border-top: 1px solid #A9AFC3;
+.footer-sevices-details__container {
+  margin: 120px 0 0px 200px;
+  border-top: 1px solid #3A3F50;
   padding: 30px 0;
 }
 .footer-sevices-details__copyright p {
