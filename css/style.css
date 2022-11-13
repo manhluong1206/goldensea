@@ -382,7 +382,7 @@ hr {
   left: 11%;
   padding: 10px;
   height: 100px;
-  width: 1200px;
+  width: 99%;
   background: -webkit-gradient(linear, left top, left bottom, from(#111319), to(rgba(22, 25, 33, 0.6)));
   background: linear-gradient(180deg, #111319, rgba(22, 25, 33, 0.6));
 }
@@ -407,7 +407,7 @@ hr {
   display: block;
   background-color: #000;
   width: 100%;
-  height: 626px;
+  min-height: 1214px;
   position: absolute;
   top: 0%;
   opacity: 0.9;
@@ -942,7 +942,7 @@ hr {
 .case-card-images {
   float: left;
   width: 25%;
-  border: 0;
+  border: none;
   position: relative;
   -webkit-transition: all 200ms ease-in;
   transition: all 200ms ease-in;
@@ -952,7 +952,7 @@ hr {
 .case-card-images::before {
   content: "";
   width: 100%;
-  height: 318px;
+  height: 100%;
   background-color: #000;
   opacity: 0.9;
   display: inline-block;
@@ -1607,6 +1607,223 @@ hr {
   font-family: "Poppins-light";
   color: #A9AFC3 !important;
 }
+.services-details {
+  background-color: #191C26;
+}
+.services-details__container {
+  margin: 0 0 0 200px;
+}
+.services-details__item.subtitle h6 {
+  color: #A9AFC3 !important;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+  font-family: "Poppins-light";
+}
+.services-details__item.subtitle h6 .line {
+  height: 1px;
+  width: 60px;
+  background: #A9AFC3 !important;
+  float: left;
+  margin: 10px 15px 0 0;
+}
+.services-details__item.title h1 {
+  margin: 22px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 100%;
+  font-family: "Poppins-md";
+  width: 74%;
+}
+.services-details__item.title h1 span {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #DBB070;
+  border: 1px solid #DBB070;
+  border-radius: 50%;
+}
+.services-details__item.desc p {
+  width: 76%;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  font-family: "Poppins-light";
+  color: #A9AFC3 !important;
+}
+
+.services-details-content__container {
+  margin: 0 0 0 200px;
+}
+.services-details-content__main.banner img {
+  width: 100%;
+}
+.services-details-content__main.text {
+  margin: 40px 0;
+}
+.services-details-content__main.text p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 170%;
+  color: #A9AFC3 !important;
+}
+.services-details-content__working.process.color {
+  font-family: "Poppins-md";
+  font-size: 12px;
+  color: #DBB070 !important;
+}
+.services-details-content__working.process.fz {
+  font-family: "Poppins-md";
+  font-size: 14px;
+}
+.services-details-content__working.process.text {
+  font-family: "Poppins-light";
+  font-size: 11px;
+  color: #A9AFC3 !important;
+  width: 99%;
+}
+.services-details-content__desc {
+  margin: 30px 0;
+}
+.services-details-content__desc.text-1 {
+  padding: 30px 0;
+  font-family: "Mulish";
+  line-height: 170%;
+  color: #A9AFC3 !important;
+  font-size: 11px;
+}
+.services-details-content__desc.text-2 p {
+  padding: 30px 0 0;
+  font-family: "Mulish";
+  line-height: 170%;
+  color: #A9AFC3 !important;
+  font-size: 11px;
+}
+.services-details-content__list p {
+  padding: 10px 0 0;
+  font-family: "Mulish";
+  line-height: 170%;
+  color: #A9AFC3 !important;
+  font-size: 11px;
+}
+.services-details-content__list p span {
+  content: "";
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+  background-color: #DBB070;
+  border-radius: 50%;
+  margin: 0 20px 0 0;
+}
+.services-details-content__contact.block-1 {
+  background: #111319;
+}
+.services-details-content__contact.block-1 p {
+  color: #A9AFC3 !important;
+  font-family: "Poppins-md";
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  padding: 8px 0;
+}
+.services-details-content__contact.block-1 p:hover {
+  color: #fff !important;
+}
+.services-details-content__contact.block-2 {
+  background: #111319;
+}
+.services-details-content__contact.block-2 h3 {
+  padding: 42px 22px 15px;
+  font-family: "Poppins-md";
+}
+.services-details-content__contact.block-2 p {
+  font-family: "Mulish";
+  font-size: 13px;
+  line-height: 170%;
+  color: #A9AFC3 !important;
+  padding: 0px 41px 0 24px;
+}
+.services-details-content__contact.block-2.button {
+  padding: 25px;
+}
+.services-details-content__contact.block-2.button button {
+  padding: 10px 0;
+  color: #DBB070 !important;
+  border-bottom: 1px solid #DBB070;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.services-details-content__contact.block-3 {
+  background: #111319;
+  margin: 25px 0;
+}
+.services-details-content__contact.block-3 h3 {
+  padding: 20px;
+}
+.services-details-content__search-container {
+  margin: 50px 0;
+  text-align: center;
+}
+.services-details-content__search-container input {
+  border: none;
+  border-bottom: 1px solid #3A3F50;
+  background: none;
+  padding: 7px 0;
+}
+.services-details-content__search-container button {
+  margin-left: -20px;
+  border: none;
+  background: none;
+}
+.services-details-content__search-container button i {
+  color: #DBB070 !important;
+}
+.services-details-content__bg-img img {
+  width: 100%;
+  height: 700px;
+  margin: 120px 0;
+}
+
+.sidebar__navbar .nav-item span {
+  width: 6px !important;
+  height: 6px !important;
+  margin-bottom: 2px;
+}
+
+.prices {
+  background: #111319;
+}
+.prices__container {
+  margin: 0px 0 100px 200px;
+}
+.prices__content {
+  padding-top: 50px;
+}
+
+.link-page__nav-bar {
+  display: inline-block;
+  list-style: none;
+}
+.link-page__nav-bar span {
+  color: #A9AFC3 !important;
+  font-size: 11px;
+  padding: 0px 2px;
+}
+.link-page__line {
+  height: 1px;
+  width: 20px;
+  background: #A9AFC3 !important;
+  float: left;
+  margin: 14px -1px 0;
+}
+
 .footer-sevices-details__container {
   margin: 120px 0 0px 200px;
   border-top: 1px solid #3A3F50;
@@ -1642,4 +1859,470 @@ hr {
   font-size: 12px;
   color: #A9AFC3 !important;
   line-height: 170%;
+}
+
+.case {
+  margin: 20px 0 0 200px;
+}
+.case__content.title h1 {
+  margin: 22px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 100%;
+  font-family: "Poppins-md";
+}
+.case__content.title h1 span {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #DBB070;
+  border: 1px solid #DBB070;
+  border-radius: 50%;
+}
+.case__tabcontent-bg img {
+  width: 100%;
+}
+.case__button {
+  text-align: center;
+}
+.case__button button {
+  padding: 15px 35px;
+  border-radius: 50px;
+  border: 2px solid #DBB070;
+  background-color: transparent;
+  text-align: center;
+}
+
+.case-card-images.height {
+  width: 33%;
+}
+.case-card-images.height::before {
+  height: 100%;
+}
+
+.tab {
+  overflow: hidden;
+  background-color: transparent;
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-bottom: 1px solid grey;
+  margin: 0 10px;
+}
+.tab button:hover {
+  background-color: transparent;
+  color: #DBB070 !important;
+  border-bottom: 1px solid #DBB070;
+}
+.tab button .active {
+  background-color: transparent;
+  color: #DBB070 !important;
+  border-bottom: 1px solid #DBB070;
+}
+
+.tabcontent {
+  display: none;
+  margin: 55px 7px;
+  border-top: none;
+}
+
+.case-work__container {
+  margin: 0 0 0 200px;
+}
+.case-work__slide-container {
+  margin: 0 0 0 200px;
+}
+.case-work__bg img {
+  width: 100%;
+}
+.case-work__content-container {
+  margin: 0 0 100px 200px;
+}
+.case-work__content {
+  margin: 20px 20px 20px 74px;
+}
+.case-work__content.title h5 {
+  font-family: "Poppins-md";
+}
+.case-work__content.desc p {
+  font-family: "Mulish";
+  color: #A9AFC3 !important;
+  font-size: 12px;
+  padding-bottom: 30px;
+}
+.case-work__category.bder {
+  margin: 20px 10px 20px 74px;
+  border-top: 1px solid #3A3F50;
+  border-bottom: 1px solid #3A3F50;
+}
+.case-work__category.text-1 {
+  padding: 30px 0px 0;
+  font-size: 14px;
+  font-family: "Mulish";
+  font-weight: bold;
+}
+.case-work__category.text-1 span {
+  font-family: "Mulish";
+  color: #A9AFC3 !important;
+  font-size: 14px;
+  font-weight: normal;
+}
+.case-work__category.text-2 {
+  font-size: 14px;
+  font-family: "Mulish";
+  font-weight: bold;
+}
+.case-work__category.text-2 span {
+  font-family: "Mulish";
+  color: #A9AFC3 !important;
+  font-size: 14px;
+  font-weight: normal;
+}
+.case-work__button {
+  margin: 20px 20px 20px 32px;
+}
+.case-work__button button {
+  padding: 15px 35px;
+  border-radius: 50px;
+  border: 2px solid #DBB070;
+  background-color: transparent;
+  text-align: center;
+}
+
+.carousel-control-prev {
+  left: 0 !important;
+  top: 105% !important;
+  border-bottom: 2px solid #fff !important;
+  width: 60px !important;
+  padding: 0px 26px 17px 0px !important;
+}
+
+.carousel-control-next {
+  right: 0 !important;
+  top: 105% !important;
+  border-bottom: 2px solid #fff !important;
+  width: 60px !important;
+  padding: 0px 0px 17px 20px !important;
+}
+
+.contact-us__container {
+  margin: 0 0 0 200px;
+}
+.contact-us__contact.block-1 {
+  background-color: #191C26;
+  margin: 30px 0;
+}
+.contact-us__contact.address {
+  padding: 22px;
+}
+.contact-us__contact.address img {
+  width: 100%;
+}
+.contact-us__contact.address h6 {
+  font-family: "Mulish";
+  font-size: 15px;
+  line-height: 170%;
+}
+.contact-us__contact.address p {
+  font-family: "Mulish";
+  font-size: 12px;
+  color: #A9AFC3 !important;
+}
+.contact-us__form {
+  margin: 29px 0;
+}
+.contact-us__item.subtitle h6 {
+  color: #A9AFC3 !important;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+  font-family: "Poppins-light";
+}
+.contact-us__item.subtitle h6 .line {
+  height: 1px;
+  width: 60px;
+  background: #A9AFC3 !important;
+  float: left;
+  margin: 8px 15px 0 0;
+}
+.contact-us__item.title h1 {
+  margin: 22px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 100%;
+  font-family: "Poppins-md";
+}
+.contact-us__item.title h1 span {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #DBB070;
+  border: 1px solid #DBB070;
+  border-radius: 50%;
+}
+.contact-us__item.desc p {
+  width: 57%;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  color: #A9AFC3 !important;
+  font-size: 14px;
+  font-family: "Mulish";
+}
+.contact-us__button button {
+  padding: 15px 35px;
+  border-radius: 50px;
+  border: 2px solid #DBB070;
+  background-color: transparent;
+}
+
+.link-page {
+  text-align: right;
+}
+
+.footer-blog__container {
+  margin: 120px 0 0px 200px;
+  border-top: 1px solid #3A3F50;
+  padding: 30px 0;
+}
+.footer-blog__copyright p {
+  font-size: 12px;
+  color: #A9AFC3 !important;
+  padding: 12px;
+  font-family: "Mulish";
+}
+.footer-blog__work-time p {
+  font-family: "Mulish";
+}
+.footer-blog__work-time.pd-2 {
+  font-family: "Mulish";
+  font-size: 12px;
+  color: #A9AFC3 !important;
+}
+.footer-blog__address p {
+  font-family: "Mulish";
+}
+.footer-blog__address.pd-2 {
+  font-family: "Mulish";
+  font-size: 12px;
+  color: #A9AFC3 !important;
+}
+.footer-blog__contact p {
+  font-family: "Mulish";
+}
+.footer-blog__contact.pd-2 {
+  font-family: "Mulish";
+  font-size: 12px;
+  color: #A9AFC3 !important;
+  line-height: 170%;
+}
+
+.post-blog {
+  margin: 100px 0 0 200px;
+}
+
+.blog.block {
+  position: relative;
+}
+.blog.block:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 550px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(25, 28, 38, 0)), to(#080A12));
+  background: linear-gradient(0deg, rgba(25, 28, 38, 0), #080A12);
+}
+.blog__info {
+  position: absolute;
+  top: 81%;
+  left: 3%;
+}
+.blog__info button {
+  width: 95px;
+  height: 24px;
+  background-color: #DBB070;
+  border: none;
+  font-family: "Mulish";
+  font-size: 12px;
+}
+.blog__info span {
+  color: #A9AFC3 !important;
+  font-size: 12px;
+  font-family: "Mulish";
+}
+.blog__desc {
+  position: absolute;
+  top: 87%;
+  left: 3%;
+}
+.blog__desc p {
+  font-family: "Poppins-md";
+}
+.blog__button button {
+  margin: 10px 0 10px 293px;
+  padding: 15px 35px;
+  border-radius: 50px;
+  border: 2px solid #DBB070;
+  background-color: transparent;
+  text-align: center;
+}
+
+.footer-post__container {
+  margin: 120px 0 0px 200px;
+  border-top: 1px solid #3A3F50;
+  padding: 30px 0;
+}
+.footer-post__copyright p {
+  font-size: 12px;
+  color: #A9AFC3 !important;
+  padding: 12px;
+  font-family: "Mulish";
+}
+.footer-post__work-time p {
+  font-family: "Mulish";
+}
+.footer-post__work-time.pd-2 {
+  font-family: "Mulish";
+  font-size: 12px;
+  color: #A9AFC3 !important;
+}
+.footer-post__address p {
+  font-family: "Mulish";
+}
+.footer-post__address.pd-2 {
+  font-family: "Mulish";
+  font-size: 12px;
+  color: #A9AFC3 !important;
+}
+.footer-post__contact p {
+  font-family: "Mulish";
+}
+.footer-post__contact.pd-2 {
+  font-family: "Mulish";
+  font-size: 12px;
+  color: #A9AFC3 !important;
+  line-height: 170%;
+}
+
+.post-content__container {
+  margin: 100px 0 100px 200px;
+}
+.post-content__text {
+  margin: 20px 0 0;
+}
+.post-content__text p {
+  padding: 20px 0;
+  font-family: "Poppins-md";
+  font-size: 13px;
+  color: #A9AFC3 !important;
+}
+.post-content__text p span {
+  font-family: "Mulish";
+  color: #A9AFC3 !important;
+  font-size: 11px;
+}
+.post-content__quote {
+  background-color: #111319;
+}
+.post-content__quote.text p {
+  font-family: "Mulish";
+  font-style: italic;
+  color: #A9AFC3 !important;
+  font-size: 14px;
+  padding: 25px 14px;
+}
+.post-content__quote.name p {
+  font-family: "Poppins";
+  padding: 10px 14px;
+}
+.post-content__quote.regency {
+  margin-top: -35px;
+}
+.post-content__quote.regency p {
+  font-family: "Mulish";
+  color: #A9AFC3 !important;
+  font-size: 11px;
+  padding: 0 14px;
+  display: inline-block;
+}
+.post-content__quote.regency img {
+  display: inline-block;
+  width: 10%;
+  margin-left: 270px;
+}
+.post-content__text-1 {
+  margin: 50px 0 0;
+}
+.post-content__text-1 p {
+  color: #A9AFC3 !important;
+  font-family: "Mulish";
+  font-style: normal;
+  font-size: 13px;
+}
+.post-content__button {
+  margin: 20px 0;
+}
+.post-content .navbar {
+  margin: 4px 0;
+}
+.post-content .navbar .nav-item {
+  background: #111319;
+  margin: 0 5px;
+}
+.post-content.author {
+  background: #111319;
+}
+.post-content__author-info.avt {
+  margin: 20px;
+}
+.post-content__author-info.avt::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  display: block;
+  background-color: #000;
+}
+.post-content__author-info.desc {
+  margin: 20px 0;
+}
+.post-content__author-info.desc h6 {
+  font-family: "Poppins-md";
+  font-style: normal;
+}
+.post-content__author-info.desc p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-size: 13px;
+  color: #A9AFC3 !important;
+  margin: 0 10px 0 0;
+}
+.post-content__author-info.desc span {
+  font-family: "Mulish";
+  font-style: normal;
+  font-size: 11px;
+  color: #A9AFC3 !important;
+}
+
+.post-content-cmt__block {
+  margin: 30px 0;
+}
+.post-content-cmt__block span.dot {
+  content: "";
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+  background-color: #DBB070;
+  border-radius: 50%;
 }
