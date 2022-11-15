@@ -130,6 +130,8 @@ hr {
   z-index: 1;
   border-radius: 8px;
   background-color: transparent;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 .snip1517 .plan:hover header {
   background-color: #DBB070;
@@ -272,13 +274,13 @@ hr {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
   font-family: "Mulish";
-  font-size: 12px;
+  font-size: 15px;
   color: #A9AFC3 !important;
 }
 .sidebar-left__line {
   position: absolute;
-  top: 69%;
-  left: 25%;
+  top: 72%;
+  left: 28%;
 }
 .sidebar-left__line hr {
   -webkit-writing-mode: vertical-lr;
@@ -390,6 +392,12 @@ hr {
 
 .nav-link {
   padding: 14px 0;
+}
+.nav-link.phone {
+  padding: 14px 0;
+  font-family: "Mulish";
+  color: #A9AFC3 !important;
+  font-size: 14px;
 }
 
 .main-menu__logo {
