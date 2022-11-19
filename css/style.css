@@ -2238,6 +2238,13 @@ hr {
   color: #A9AFC3 !important;
   font-size: 11px;
 }
+.post-content.block-1 {
+  background-color: #111319;
+  margin: 0px 0 30px;
+}
+.post-content__search {
+  padding: 1px 0;
+}
 .post-content__quote {
   background-color: #111319;
 }
@@ -2288,6 +2295,7 @@ hr {
 }
 .post-content.author {
   background: #111319;
+  margin: 30px 0;
 }
 .post-content__author-info.avt {
   margin: 20px;
@@ -2320,14 +2328,172 @@ hr {
   color: #A9AFC3 !important;
 }
 
-.post-content-cmt__block {
+.post-content-cmts.user-cmt {
+  margin: 60xp 0 !important;
+}
+.post-content-cmts__block {
   margin: 30px 0;
 }
-.post-content-cmt__block span.dot {
+.post-content-cmts__block span.dot {
   content: "";
   display: inline-block;
   height: 6px;
   width: 6px;
   background-color: #DBB070;
   border-radius: 50%;
+}
+
+.post-content-comment {
+  margin: 60px 0;
+}
+.post-content-comment__button {
+  border-radius: 50px;
+  border: 2px solid #DBB070;
+  background-color: transparent;
+  font-family: "Mulish";
+  width: 132px;
+}
+.post-content-comment__button span {
+  font-family: "Mulish";
+  font-size: 12px;
+  padding: 0px 10px;
+}
+.post-content-comment__item.title {
+  font-family: "Poppins-md";
+}
+.post-content-comment__item.desc p {
+  font-family: "Mulish";
+  font-size: 12px;
+  color: #A9AFC3 !important;
+}
+
+.category__contact-item {
+  margin-bottom: 20px;
+  border-top: 1px solid #3A3F50;
+}
+.category__contact-item img {
+  display: inline-block;
+}
+.category__contact-item p {
+  display: inline-block;
+}
+.category__contact-title-5 h3 {
+  font-family: "Poppins-md";
+  font-size: 28px;
+}
+.category__contact.block-4 {
+  background: #111319;
+  margin: 25px 0;
+}
+.category__contact.block-4 h3 {
+  padding: 20px;
+}
+.category__contact-item p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-size: 16px;
+  padding: 0 0 0 15px;
+}
+.category__contact-time p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-size: 12px;
+  color: #A9AFC3 !important;
+}
+.category__contact-title p {
+  font-family: "Poppins-md";
+  font-size: 18px;
+}
+.category__search-container {
+  margin: 50px 0;
+  text-align: center;
+}
+.category__search-container input {
+  border: none;
+  border-bottom: 1px solid #3A3F50;
+  background: none;
+  padding: 7px 0;
+}
+.category__search-container button {
+  margin-left: -20px;
+  border: none;
+  background: none;
+}
+.category__search-container button i {
+  color: #DBB070 !important;
+}
+
+.tags {
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 107%;
+}
+.tags li {
+  display: inline-block;
+  background: #111319;
+  padding: 3px 15px;
+  margin: 4px 4px;
+}
+.tags li a {
+  font-family: "Mulish";
+  font-style: normal;
+  font-size: 12px;
+  color: #A9AFC3 !important;
+}
+.tags li a:hover {
+  text-decoration: none;
+}
+
+.sidebar__search-container {
+  margin: 16px 0;
+}
+
+.post-page__content {
+  margin: 0 0 0 108px;
+}
+.post-page__content.subtitle h6 {
+  color: #A9AFC3 !important;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+  font-family: "Poppins-light";
+}
+.post-page__content.subtitle h6 .line {
+  height: 1px;
+  width: 60px;
+  background: #A9AFC3 !important;
+  float: left;
+  margin: 10px 15px 0 0;
+}
+.post-page__content.title h1 {
+  margin: 22px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 100%;
+  font-family: "Poppins-md";
+}
+.post-page__content.title h1 span {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #DBB070;
+  border: 1px solid #DBB070;
+  border-radius: 50%;
+}
+.post-page__content.desc {
+  margin: 30px 0 70px;
+}
+.post-page__content.desc p {
+  width: 93%;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  font-family: "Mulish";
+  font-size: 14px;
+  color: #A9AFC3 !important;
 }
