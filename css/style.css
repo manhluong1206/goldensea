@@ -1950,7 +1950,7 @@ hr {
   width: 100%;
 }
 .case-work__content-container {
-  margin: 0 0 100px 200px;
+  padding: 100px 0 0;
 }
 .case-work__content {
   margin: 20px 20px 20px 74px;
@@ -2005,18 +2005,24 @@ hr {
 
 .carousel-control-prev {
   left: 0 !important;
-  top: 105% !important;
-  border-bottom: 2px solid #fff !important;
+  top: 10% !important;
   width: 60px !important;
   padding: 0px 26px 17px 0px !important;
+}
+.carousel-control-prev span {
+  border-bottom: 1px solid #FFFFFF !important;
+  color: #FFFFFF !important;
 }
 
 .carousel-control-next {
   right: 0 !important;
-  top: 105% !important;
-  border-bottom: 2px solid #fff !important;
-  width: 60px !important;
+  top: 10% !important;
   padding: 0px 0px 17px 20px !important;
+  width: 60px !important;
+}
+.carousel-control-next span {
+  border-bottom: 1px solid #FFFFFF !important;
+  color: #FFFFFF !important;
 }
 
 .contact-us__container {
