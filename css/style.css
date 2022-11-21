@@ -1336,6 +1336,9 @@ hr {
   line-height: 130%;
   color: #DBB070 !important;
 }
+.banner-info__circle-center p.p-text.left {
+  left: 15%;
+}
 
 .team__container {
   margin: 200px 0 200px 200px;
@@ -1643,7 +1646,7 @@ hr {
   font-size: 43px;
   line-height: 100%;
   font-family: "Poppins-md";
-  width: 74%;
+  width: 100%;
 }
 .services-details__item.title h1 span {
   content: "";
@@ -1730,7 +1733,7 @@ hr {
 }
 .services-details-content__contact.block-1 {
   background: #111319;
-  margin: 54px 0 20px;
+  margin: 200px 0 20px;
   text-align: center;
 }
 .services-details-content__contact.block-1 .tabbtn {
