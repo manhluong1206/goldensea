@@ -399,6 +399,9 @@ hr {
   color: #A9AFC3 !important;
   font-size: 14px;
 }
+.nav-link img {
+  width: 90%;
+}
 
 .main-menu__logo {
   margin: 13px;
@@ -1950,7 +1953,7 @@ hr {
   width: 100%;
 }
 .case-work__content-container {
-  padding: 100px 0 0;
+  margin: 100px 0 0;
 }
 .case-work__content {
   margin: 20px 20px 20px 74px;
