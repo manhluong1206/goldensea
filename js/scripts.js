@@ -8,6 +8,7 @@ function openNav() {
     document.getElementById("main").style.marginLeft= "0";
 }
 
+//case 
 function openContent(evt, contentName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -23,3 +24,18 @@ function openContent(evt, contentName) {
 
 }
 document.getElementById("defaultOpen").click();
+
+//services-detail
+function openSer(evt, cityName) {
+  var i, tabcontent, tabbtn;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tabbtn = document.getElementsByClassName("tabbtn");
+  for (i = 0; i < tabbtn.length; i++) {
+    tabbtn[i].className = tabbtn[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}

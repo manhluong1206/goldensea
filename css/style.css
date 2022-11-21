@@ -1730,16 +1730,21 @@ hr {
 }
 .services-details-content__contact.block-1 {
   background: #111319;
+  margin: 54px 0 20px;
+  text-align: center;
 }
-.services-details-content__contact.block-1 p {
+.services-details-content__contact.block-1 .tabbtn {
   color: #A9AFC3 !important;
   font-family: "Poppins-md";
   font-size: 14px;
   line-height: 130%;
   text-align: center;
-  padding: 8px 0;
+  padding: 14px 0;
+  width: 100%;
+  border: none;
+  background: none;
 }
-.services-details-content__contact.block-1 p:hover {
+.services-details-content__contact.block-1 .tabbtn:hover {
   color: #fff !important;
 }
 .services-details-content__contact.block-2 {
@@ -1914,7 +1919,7 @@ hr {
   overflow: hidden;
   background-color: transparent;
 }
-.tab button {
+.tab button.tablinks {
   background-color: inherit;
   float: left;
   border: none;
@@ -1926,12 +1931,12 @@ hr {
   border-bottom: 1px solid grey;
   margin: 0 10px;
 }
-.tab button:hover {
+.tab button.tablinks:hover {
   background-color: transparent;
   color: #DBB070 !important;
   border-bottom: 1px solid #DBB070;
 }
-.tab button .active {
+.tab button.tablinks .active {
   background-color: transparent;
   color: #DBB070 !important;
   border-bottom: 1px solid #DBB070;
