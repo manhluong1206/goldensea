@@ -192,6 +192,7 @@ hr {
 
 @media only screen and (max-width: 576px) {
   .header {
+    position: inherit !important;
     height: 145px !important;
     background-color: #111319;
   }
@@ -206,10 +207,12 @@ hr {
     width: unset !important;
     position: unset !important;
     background-color: transparent !important;
+    margin-top: -33px !important;
   }
   .sidebar-left .sidebar-left__title {
     top: 16%;
     left: 2%;
+    z-index: 5;
   }
   .sidebar-left .sidebar-left__title h4 {
     -webkit-transform: none;
@@ -254,7 +257,8 @@ hr {
   .main-content {
     float: none !important;
     width: 100% !important;
-    margin: 112px 0;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#111319), to(rgba(20, 22, 29, 0.8509803922))) !important;
+    background-image: linear-gradient(180deg, #111319, rgba(20, 22, 29, 0.8509803922)) !important;
   }
   .slider-content__item.block {
     left: 3% !important;
@@ -435,7 +439,7 @@ hr {
     height: 50px !important;
   }
   .footer {
-    width: 111% !important;
+    width: 110.45% !important;
     background-color: #191C26;
     left: -6% !important;
   }
