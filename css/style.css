@@ -244,6 +244,7 @@ hr {
   }
   .navbar-nav.inline .nav-item .nav-link {
     font-size: 12px;
+    padding: 0 5px;
   }
   .navbar-nav.inline .nav-item.button-menu {
     width: 65px;
@@ -438,10 +439,27 @@ hr {
     width: 50px !important;
     height: 50px !important;
   }
+  .subscribe__bg {
+    margin: 50px 0 !important;
+  }
+  .subscribe__bg .col-xs-3 {
+    margin: 0 0 0 15px !important;
+  }
+  .subscribe__bg .col-xs-9 {
+    margin: 0 0 0 10px;
+  }
+  .subscribe__regency p {
+    font-size: 10px !important;
+  }
+  .subscribe__img img {
+    width: 100%;
+  }
   .footer {
     width: 110.45% !important;
     background-color: #191C26;
     left: -6% !important;
+    top: 80% !important;
+    margin-left: 2px;
   }
 }
 @media only screen and (min-width: 740px) and (max-width: 1023px) {
