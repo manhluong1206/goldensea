@@ -196,6 +196,20 @@ hr {
     height: 145px !important;
     background-color: #111319;
   }
+  .header .col-lg-12 {
+    margin: 0 !important;
+  }
+  .header .row .col-lg-2 {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header .row .col-lg-2 a img {
+    margin: 0 !important;
+  }
   .row .col-lg-2 a {
     background-size: contain !important;
     margin: 10px 0 !important;
@@ -210,7 +224,7 @@ hr {
     margin-top: -33px !important;
   }
   .sidebar-left .sidebar-left__title {
-    top: 16%;
+    top: 14.3%;
     left: 2%;
     z-index: 5;
   }
@@ -666,14 +680,11 @@ hr {
   background: -webkit-gradient(linear, left top, left bottom, from(#111319), to(rgba(22, 25, 33, 0.6)));
   background: linear-gradient(180deg, #111319, rgba(22, 25, 33, 0.6));
 }
-.header .row .col-lg-2 a {
-  background-image: url(/images/Logo.svg);
-  background-repeat: no-repeat;
-  display: block;
-  height: 43px;
-  width: 100%;
-  background-size: cover;
-  margin: 15px 0 15px 25px;
+.header .col-lg-12 {
+  margin: 10px 0;
+}
+.header .row .col-lg-2 a img {
+  margin: 18px 30px;
 }
 .header .nav-item a {
   font-family: "Mulish";
