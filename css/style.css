@@ -209,6 +209,7 @@ hr {
   }
   .header .row .col-lg-2 a img {
     margin: 0 !important;
+    width: 222px !important;
   }
   .row .col-lg-2 a {
     background-size: contain !important;
@@ -224,7 +225,7 @@ hr {
     margin-top: -33px !important;
   }
   .sidebar-left .sidebar-left__title {
-    top: 14.3%;
+    top: 16.3%;
     left: 2%;
     z-index: 5;
     -webkit-box-align: center;
