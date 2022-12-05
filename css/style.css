@@ -227,6 +227,12 @@ hr {
     top: 14.3%;
     left: 2%;
     z-index: 5;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .sidebar-left .sidebar-left__title h4 {
     -webkit-transform: none;
