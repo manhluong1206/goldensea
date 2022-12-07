@@ -208,14 +208,13 @@ hr {
     display: flex;
   }
   .header .row .col-lg-2 a img {
-    margin: 15px 30px 0 30px !important;
     position: relative;
     left: -15% !important;
     top: -25%;
+    margin: 18px 30px 0 !important;
   }
   .row .col-lg-2 a {
     background-size: contain !important;
-    margin: 10px 0 !important;
   }
   .row .col-lg-9 .navbar-nav.none {
     display: none;
@@ -227,8 +226,8 @@ hr {
     margin-top: -33px !important;
   }
   .sidebar-left .sidebar-left__title {
-    top: 16.3%;
-    left: 2%;
+    top: 14%;
+    left: 7%;
     z-index: 5;
     -webkit-box-align: center;
         -ms-flex-align: center;
