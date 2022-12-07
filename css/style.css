@@ -232,7 +232,7 @@ hr {
     display: none;
   }
   .sidebar-left .sidebar-left__title {
-    top: 14.2%;
+    top: 12%;
     left: 7%;
     z-index: 5;
     -webkit-box-align: center;
@@ -249,7 +249,7 @@ hr {
         -ms-writing-mode: unset;
             writing-mode: unset;
     font-size: 12px;
-    padding: 11px 0px;
+    padding: 13px 0px;
   }
   .openbtn {
     position: absolute;
