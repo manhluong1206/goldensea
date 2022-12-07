@@ -249,7 +249,7 @@ hr {
         -ms-writing-mode: unset;
             writing-mode: unset;
     font-size: 12px;
-    padding: 13px 0px;
+    padding: 14px 0;
   }
   .openbtn {
     position: absolute;
