@@ -190,7 +190,7 @@ hr {
   background-color: transparent;
 }
 
-@media screen and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-width: 739px) {
   .header {
     position: inherit !important;
     height: 145px !important;
@@ -199,7 +199,7 @@ hr {
   .header .col-lg-12 {
     margin: 0 !important;
   }
-  .header .row .col-lg-2 {
+  .header .row .col-md-2 {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
@@ -207,16 +207,19 @@ hr {
     display: -ms-flexbox;
     display: flex;
   }
-  .header .row .col-lg-2 a img {
+  .header .row .col-md-2 a img {
     position: relative;
     left: -15% !important;
     top: -25%;
     margin: 18px 30px 0 !important;
   }
-  .row .col-lg-2 a {
+  .row .col {
+    display: none;
+  }
+  .row .col-md-2 a {
     background-size: contain !important;
   }
-  .row .col-lg-9 .navbar-nav.none {
+  .row .col-md-9 .navbar-nav.none {
     display: none;
   }
   .sidebar-left {
@@ -360,9 +363,6 @@ hr {
   .cta__item.desc {
     margin: 0 17px;
   }
-  .cta__item.desc p {
-    width: 104% !important;
-  }
   .form-group input {
     width: 100% !important;
   }
@@ -492,9 +492,26 @@ hr {
     margin: 0 !important;
   }
 }
-@media only screen and (min-width: 740px) and (max-width: 1023px) {
-  .row .col-lg-2 a {
-    background-size: contain !important;
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+  .header .col-xs-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .header .col-xs-9 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  .main-content {
+    float: none !important;
+    width: 100% !important;
   }
 }
 .sidebar {
@@ -695,7 +712,7 @@ hr {
 .header .col-lg-12 {
   margin: 10px 0;
 }
-.header .row .col-lg-2 a img {
+.header .row .col-md-2 a img {
   margin: 18px 30px;
 }
 .header .nav-item a {
