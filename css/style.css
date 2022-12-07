@@ -190,7 +190,7 @@ hr {
   background-color: transparent;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   .header {
     position: inherit !important;
     height: 145px !important;
@@ -243,6 +243,7 @@ hr {
         -ms-writing-mode: unset;
             writing-mode: unset;
     font-size: 12px;
+    padding: 11px 0px;
   }
   .openbtn {
     position: absolute;
