@@ -190,7 +190,7 @@ hr {
   background-color: transparent;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   .header {
     position: inherit !important;
     height: 145px !important;
@@ -208,8 +208,10 @@ hr {
     display: flex;
   }
   .header .row .col-lg-2 a img {
-    margin: 0 !important;
-    width: 222px !important;
+    margin: 15px 30px 0 30px !important;
+    position: relative;
+    left: -15% !important;
+    top: -25%;
   }
   .row .col-lg-2 a {
     background-size: contain !important;
