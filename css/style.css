@@ -210,7 +210,7 @@ hr {
   .header .row .col-md-2 a img {
     position: relative;
     left: -15% !important;
-    top: -25%;
+    top: 0;
     margin: 18px 30px 0 !important;
   }
   .row .col {
@@ -285,7 +285,6 @@ hr {
     width: 200%;
   }
   .main-content {
-    float: none !important;
     width: 100% !important;
     margin: 0 !important;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#111319), to(rgba(20, 22, 29, 0.8509803922))) !important;
@@ -545,6 +544,7 @@ hr {
   .main-content {
     float: none !important;
     width: 100% !important;
+    margin: 91px 0 0 !important;
   }
   .main-content .slider-content__item.block {
     top: 1%;
@@ -741,15 +741,13 @@ hr {
 }
 
 .header {
-  position: sticky;
+  position: fixed;
   z-index: 4;
   top: 0;
-  left: 11%;
-  padding: 10px;
-  height: 100px;
-  width: 99%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#111319), to(rgba(22, 25, 33, 0.6)));
-  background: linear-gradient(180deg, #111319, rgba(22, 25, 33, 0.6));
+  left: 0%;
+  padding: 0px;
+  width: 100%;
+  background-color: #111319;
 }
 .header .col-lg-12 {
   margin: 10px 0;
